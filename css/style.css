@@ -152,7 +152,7 @@ p {
   margin: 100px 0px 0px 0px;
 }
 
-@media (max-width: 767px) {
+@media  only screen and (max-width: 767px) {
   body.lock {
     overflow: hidden;
   }
